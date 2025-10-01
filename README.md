@@ -12,11 +12,26 @@ else:
 
 # N°1 Suma de pares positivos
 ```python
-q=1
-w=2
-e=3
-r=4
-t=5
-input(ingrese un valor)
+suma = 0  
+
+for i in range(5):
+    numero = int(input(f"Ingrese el número {i+1}: "))
+    
+    
+    if numero > 0 and numero % 2 == 0:
+        print(f"El número {numero} es positivo y par")
+        suma += numero
+
+print(f"\nLa suma total de los números positivos y pares es: {suma}")
 
 ```
+
+# N°3 Contador de vocales 
+
+```python
+
+```
+
+
+
+
